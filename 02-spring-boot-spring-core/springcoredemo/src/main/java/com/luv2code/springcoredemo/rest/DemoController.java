@@ -19,7 +19,7 @@ public class DemoController {
 //    }
 
     @Autowired
-    public void setCoach(@Qualifier("trackCoach") Coach theCoach){
+    public void setCoach(@Qualifier("swimCoach") Coach theCoach){
         this.myCoach = theCoach;
     }
 
